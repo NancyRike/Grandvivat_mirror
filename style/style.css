@@ -31,7 +31,16 @@ h1 {
   object-fit: cover;
   height: 36px;
 }
-
+.linkStyle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  font-feature-settings: "liga" off;
+  color: #111827;
+  text-decoration: none;
+}
 .section_one p {
   font-style: normal;
   font-weight: 400;
@@ -288,13 +297,14 @@ h1 {
   color: #ffffff;
 }
 .contact_value {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 156%;
-  font-feature-settings: "liga" off;
-  color: #ffffff;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+font-feature-settings: 'liga' off;
+color: #1F2937;
+
 }
 .company_name {
   font-family: "Inter";
@@ -313,24 +323,19 @@ h1 {
   color: #000000;
 }
 .company_description {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  /* or 143% */
-
-  font-feature-settings: "liga" off;
-
-  /* Neutral/700 */
-
-  color: #374151;
+  font-feature-settings: 'liga' off;
+  color: #1F2937;
 }
-.black_box{
-width: 30px;
-height: 32px;
-background: #000000;
-border-radius: 2px;
+.black_box {
+  width: 30px;
+  height: 32px;
+  background: #000000;
+  border-radius: 2px;
 }
 .reach_us_content {
   background: #19aea9;
@@ -366,9 +371,9 @@ border-radius: 2px;
     border-left: unset;
     border-right: unset;
   }
-  .feedback_body h1{
+  .feedback_body h1 {
     font-size: 30px !important;
-line-height: 40px;
+    line-height: 40px;
   }
   .feedback_card {
     padding: 25px 18px;
@@ -397,49 +402,216 @@ line-height: 40px;
     object-fit: cover;
     width: 182px;
   }
-.project_description{
-    font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  text-align: center;
-  font-feature-settings: 'liga' off;  
-  color: #111827;
-}
-
+  .project_description {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #111827;
+  }
 }
 
 @media screen and (max-width: 425px) {
-.project_image img {
+  .project_image img {
     width: 300px;
     height: 300px;
     margin: auto;
-}
+  }
 }
 @media screen and (max-width: 360px) {
-    .grid_img_1 img {
-        height: 121px;
-        object-fit: cover;
-        width: 159px;
-      }
-    
-      .grid_img_2 img {
-        height: 123px;
-        width: 123px;
-        object-fit: cover;
-        align-self: end;
-      }
-    
-      .grid_img_3 img {
-        height: 63px;
-        width: 131px;
-        object-fit: cover;
-      }
-    
-      .grid_img_4 img {
-        height: 171;
-        object-fit: cover;
-        width: 152px;
-      }
+  .grid_img_1 img {
+    height: 121px;
+    object-fit: cover;
+    width: 159px;
+  }
+
+  .grid_img_2 img {
+    height: 123px;
+    width: 123px;
+    object-fit: cover;
+    align-self: end;
+  }
+
+  .grid_img_3 img {
+    height: 63px;
+    width: 131px;
+    object-fit: cover;
+  }
+
+  .grid_img_4 img {
+    height: 171;
+    object-fit: cover;
+    width: 152px;
+  }
+}
+.servicesList {
+  background-color: #d5fafc;
+}
+.servicesList h6{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #1F2937;
+}
+.servicesList p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+font-feature-settings: 'liga' off;
+color: #1F2937;
+
+}
+.serviceImages {
+  /* width: 384px;
+  height: 300px; */
+}
+.serviceImages img{
+  object-fit: cover;
+  width: 100%;
+  /* width: 100%;
+  height: 100%; */
+}
+.choose_us{
+   
+}
+.choose_us :first-child{
+
+}
+@media screen and (max-width: 768px) {
+  .choose_us{
+    padding-left: 0 !important;
+  }
+}
+.ourService h6{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-feature-settings: 'liga' off;
+  
+  /* Black */
+  
+  color: #000000;
+  
+}
+.ourService p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+font-feature-settings: 'liga' off;
+color: #1F2937;
+width: 75%;
+}
+@media screen and (max-width: 1250px) {
+  .ourService p{
+    width: unset;
+  }
+  }
+.activeNavbar{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 20px !important;
+font-feature-settings: 'liga' off;
+color: #19AEA9 !important;
+border-bottom: 2px solid #19AEA9;
+}
+@media screen and (max-width: 768px) {
+  .activeNavbar {
+    border-bottom: unset;
+  }
+  }
+  .toggleButton{
+    box-shadow: unset !important;
+  }
+.aboutSection h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-feature-settings: "liga" off;
+  color: #000000;
+}
+.aboutSection p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #1f2937;
+}
+@media screen and (max-width: 1199px) {
+  .aboutSection p {
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+.mission {
+  background-color: #111827;
+}
+.mission h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+.mission p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #d5fafc;
+}
+
+.vision {
+  background-color: #19aea9;
+}
+.vision h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+.vision p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  font-feature-settings: "liga" off;
+  color: #d5fafc;
+}
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+  .vision p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+  }
 }
