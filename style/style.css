@@ -450,6 +450,11 @@ color: #1F2937;
 .servicesList {
   background-color: #d5fafc;
 }
+@media screen and (max-width: 450px) {
+  .servicesList {
+    /* padding-right:0 !important; */
+  }
+}
 .servicesList h6{
   font-family: 'Inter';
 font-style: normal;
@@ -489,6 +494,10 @@ color: #1F2937;
   .choose_us{
     padding-left: 0 !important;
   }
+  .ourService p{
+  font-size: 18px !important;
+  line-height: 29px !important;
+  }
 }
 .ourService h6{
   font-family: 'Inter';
@@ -498,9 +507,6 @@ color: #1F2937;
   line-height: 28px;
   text-transform: uppercase;
   font-feature-settings: 'liga' off;
-  
-  /* Black */
-  
   color: #000000;
   
 }
