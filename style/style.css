@@ -621,3 +621,15 @@ border-bottom: 2px solid #19AEA9;
 
   }
 }
+
+
+@media screen and (min-width: 1440px) {
+    .maxWidthProperty{
+    max-width: 1440px !important;
+    margin: auto;
+  }
+
+  .cleanKitchenImage img {
+    width: 100% !important;
+  }
+}

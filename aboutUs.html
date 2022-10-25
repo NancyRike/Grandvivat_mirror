@@ -26,48 +26,45 @@
   </head>
 
   <body>
-    <section class="">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./assets/logo.svg" alt="..." class="log_img" />
-            </a>
-            <button
-              class="navbar-toggler btn border-0 toggleButton"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active activeNavbar linkStyle"
-                    aria-current="page"
-                    href="./aboutUs.html"
-                    >About us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link linkStyle" href="./services.html"
-                    >Our services</a
-                  >
-                </li>
-              </ul>
-              <button class="py-2 px-3">Book Appointment</button>
-            </div>
+    <main class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-md">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/logo.svg" alt="..." class="log_img" />
+          </a>
+          <button
+            class="navbar-toggler btn border-0 toggleButton"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active linkStyle"
+                  aria-current="page"
+                  href="./aboutUs.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active linkStyle" href="./services.html"
+                  >Our services</a
+                >
+              </li>
+            </ul>
+            <button class="py-2 px-3">Book Appointment</button>
           </div>
-        </nav>
-      </div>
-
+        </div>
+      </nav>
       <section class="container">
-        <div class="d-lg-flex mx-auto align-items-center aboutSection">
+        <div class="d-lg-flex py-0 py-md-5 mx-auto align-items-center aboutSection">
           <div class="d-flex m-auto align-items-center justify-content-center">
             <div class="me-lg-5 py-5">
               <h4><b> ABOUT US</b></h4>
@@ -101,9 +98,9 @@
           </div>
         </div>
       </section>
-      <section class="">
+      <section class="maxWidthProperty">
         <div class="d-fle row justify-content-left">
-          <div class="col-md-7 px-0">
+          <div class="col-md-7 px-0 cleanKitchenImage">
             <img src="./assets/cleanKitchen.png" alt="" class="img-fluid" />
           </div>
           <div class="mission col-md-5 px-0 w-1">
@@ -123,9 +120,9 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="d-flx row">
-          <div class="vision col-md-7 px-0 w-10">
+      <section class="maxWidthProperty">
+        <div class="row">
+          <div class="vision col-md-7 px-0 ">
             <div
               class="d-flex m-auto align-items-center justify-content-center h-100 w-75"
             >
@@ -147,14 +144,17 @@
           </div>
         </div>
       </section>
-    </section>
-    <section class="container-md">
-        <div class="row justify-content-between align-items-start  px-md-5 px-0 py-5">
+      <section class="container-md">
+        <div
+          class="row justify-content-between align-items-start px-md-5 px-0 py-5"
+        >
           <div class="col-lg-6 col-md-6 mb-4 mb-md-0 about_section">
             <div class="d-flex align-items-center mb-4">
               <img src="./assets/logo.svg" class="img-fluid" alt="" />
             </div>
-            <p class="company_description">Cleaning service with a difference</p>
+            <p class="company_description">
+              Cleaning service with a difference
+            </p>
             <div class="socials mt-4">
               <img src="./assets/instagramIcon.svg" alt="" class="mx-2" />
               <img src="./assets/linkedInIcon.svg" alt="" class="mx-2" />
@@ -169,7 +169,9 @@
             >
               <div class="col p-3 mb-4">
                 <div class="d-flex align-items-start">
-                  <div class=""><img src="./assets/emailIcon.svg" alt="" /></div>
+                  <div class="">
+                    <img src="./assets/emailIcon.svg" alt="" />
+                  </div>
                   <div class="">
                     <p class="text-start ms-3 contact_value">
                       info@grandvivatservices.com
@@ -180,7 +182,9 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-start">
-                  <div class=""><img src="./assets/phoneIcon.svg" alt="" /></div>
+                  <div class="">
+                    <img src="./assets/phoneIcon.svg" alt="" />
+                  </div>
                   <div class="">
                     <p class="text-start ms-3 contact_value">09136558708</p>
                   </div>
@@ -203,6 +207,7 @@
           </div>
         </div>
       </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
