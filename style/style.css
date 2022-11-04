@@ -51,7 +51,26 @@ h1 {
 .section_one {
   margin-bottom: 96px;
 }
+.section_one p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #000000;
 
+}
+
+.section_two_p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #111827;
+}
 .grid_img_1 img {
   height: 334px;
   object-fit: cover;
