@@ -34,7 +34,7 @@ h1 {
 .linkStyle {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 600 !important;
   font-size: 14px;
   line-height: 20px;
   font-feature-settings: "liga" off;
@@ -306,6 +306,9 @@ color: #111827;
   background-color: #1f2937;
   border-radius: 8px;
 }
+.single_contact a{
+  text-decoration: none;
+}
 .contact_medium {
   font-family: "Inter";
   font-style: normal;
@@ -324,6 +327,16 @@ line-height: 20px;
 font-feature-settings: 'liga' off;
 color: #1F2937;
 
+}
+.contact_value_card{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  font-feature-settings: 'liga' off;
+  color: #ffffff;
+  
 }
 .company_name {
   font-family: "Inter";
@@ -493,9 +506,15 @@ font-feature-settings: 'liga' off;
 color: #1F2937;
 
 }
-.serviceImages {
-  /* width: 384px;
-  height: 300px; */
+.serviceImages p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #111827;
+
 }
 .serviceImages img{
   object-fit: cover;
@@ -503,8 +522,8 @@ color: #1F2937;
   /* width: 100%;
   height: 100%; */
 }
-.choose_us{
-   
+.choose_us img{
+   object-fit: contain;
 }
 .choose_us :first-child{
 
@@ -575,7 +594,7 @@ border-bottom: 2px solid #19AEA9;
 .aboutSection p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500 !important;
   font-size: 30px;
   line-height: 40px;
   font-feature-settings: "liga" off;
@@ -603,7 +622,7 @@ border-bottom: 2px solid #19AEA9;
 .mission p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500 !important;
   font-size: 30px;
   line-height: 40px;
   font-feature-settings: "liga" off;
@@ -626,15 +645,15 @@ border-bottom: 2px solid #19AEA9;
 .vision p {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 500 !important;
+  font-size: 30px !important;
   line-height: 40px;
   font-feature-settings: "liga" off;
   color: #d5fafc;
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
   .vision p {
-    font-weight: 500;
+    font-weight: 500 !important;
     font-size: 20px;
     line-height: 30px;
 
@@ -651,4 +670,19 @@ border-bottom: 2px solid #19AEA9;
   .cleanKitchenImage img {
     width: 100% !important;
   }
+}
+.footer-logo{
+  margin-left: -20px;
+}
+.servicesBorder{
+  border-bottom: 3px solid #C0DAE5 ;
+}
+.choooseUsBorder{
+  border-bottom: 3px solid #19AEA9 ;
+}
+.missionBorder{
+  border-bottom: 3px solid #FFC3D8 ;
+}
+.aboutBorder{
+  border-bottom: 3px solid #A0DCFF ;
 }
